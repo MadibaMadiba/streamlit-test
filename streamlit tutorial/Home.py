@@ -26,7 +26,7 @@ with st.echo(): # essentially the same as st.code but runs the code as a functio
 
 st.divider()
 df = pd.read_csv("data/data.csv")
-# st.dataframe(df) # displays the dataframe on the page
+st.dataframe(df) # displays the dataframe on the page
 
 # edited_df = st.data_editor(df)
 
